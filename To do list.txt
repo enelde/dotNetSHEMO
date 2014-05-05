@@ -19,7 +19,7 @@ Buat Desain Database nya
 	(siapa yang jadi PJ? ........)
 	
 Buat Entri ke Database nya
-	(siapa yang jadi PJ? ........)
+	(siapa yang jadi PJ? Dede)
 	
 	
 	
@@ -27,5 +27,5 @@ Buat Entri ke Database nya
 Menurut kamu, FP ini selesai dalam waktu berapa minggu?
 Rosa 	- 
 Nafi 	- 4 minggu
-Friska 	- 
+Friska 	- 3-4 minggu
 Astari	- 
