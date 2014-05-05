@@ -6,10 +6,26 @@ Install :
 	ADT Manager
 	AVD Manager
 
-	Bagi yang mau mempelajari/nyoba gimana cara menggunakan xamarin, ini tutorialnya:
-		versi web: http://docs.xamarin.com/guides/android/getting_started/
-		versi pdf: http://docs.xamarin.com/guides/android/getting_started/hello,_world/offline.pdf (khusus contoh hello android)
+
+Bagi yang mau mempelajari/nyoba gimana cara menggunakan xamarin, ini tutorialnya:
+	versi web: http://docs.xamarin.com/guides/android/getting_started/
+	versi pdf: http://docs.xamarin.com/guides/android/getting_started/hello,_world/offline.pdf (khusus contoh hello android)
 
 
 Buat Desain UI nya
-	(siapa yang jadi PJ? ......)
+	(siapa yang jadi PJ? Nafi)
+
+Buat Desain Database nya
+	(siapa yang jadi PJ? ........)
+	
+Buat Entri ke Database nya
+	(siapa yang jadi PJ? ........)
+	
+	
+	
+	
+Menurut kamu, FP ini selesai dalam waktu berapa minggu?
+Rosa 	- 
+Nafi 	- 4 minggu
+Friska 	- 
+Astari	- 
