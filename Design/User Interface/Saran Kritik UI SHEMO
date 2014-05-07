@@ -1,1 +1,12 @@
 Rosa : Button untuk "Alam Religi Pasar, dll" bisa diganti ga?? kok saya agak kurang srek :v makasssiih
+
+Dede:
+- di halaman main_menunya dibuat kotak2 kayak persegi aja, jadi urutan tampilannya kayak gini:
+            [gambar random]
+    [wisata]          [tour]
+    [month event]     [top recomended]
+    [about surabaya]  [search]
+
+- di halaman menu_wisata, alamatnya di hilangin aja
+- di wisata_detil itu bawahnya narasi dikasih kotak buat alamat
+- saran, untuk yang top recomended itu di buat sepuluh tempat/wisata yang paling banyak dipilih aja..gimana?
