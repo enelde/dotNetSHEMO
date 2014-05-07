@@ -17,7 +17,8 @@ Buat Desain UI nya
 	UI v1.0 done in 7 Mei 2014 01:00
 
 Buat Desain Database nya
-	(siapa yang jadi PJ? ........)
+	(siapa yang jadi PJ? Rosa)
+	Deadline paling ngaret 10 atau 11 Mei 2014
 	
 Buat Entri ke Database nya
 	(siapa yang jadi PJ? Dede)
@@ -26,7 +27,7 @@ Buat Entri ke Database nya
 	
 	
 Menurut kamu, FP ini selesai dalam waktu berapa minggu?
-Rosa 	- 
+Rosa 	- 5 minggu
 Nafi 	- 4 minggu
 Friska 	- 3-4 minggu
 Astari	- 
