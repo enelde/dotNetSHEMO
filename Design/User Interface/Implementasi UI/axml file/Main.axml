@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF00"
+    android:id="@+id/linearLayout1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:id="@+id/linearLayout2">
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/toggleButton1" />
+        <SearchView
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/searchView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3.6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout3"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1.8"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout4">
+        <ImageButton
+            android:src="@drawable/wisata"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1" />
+        <ImageButton
+            android:src="@drawable/tour"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2" />
+    <!--        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout10">
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageButton1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout11">
+            <ImageButton
+                android:scaleType="centerInside"
+                android:src="@drawable/tour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2"
+                android:adjustViewBounds="false"
+                android:cropToPadding="true"
+                android:requiresFadingEdge="none"
+                android:layout_weight="1"
+                android:layout_gravity="right" />
+        </LinearLayout>-->
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout5">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout6">
+        <!--            <linearLayout
+            	android:orientation="vertical"
+            	android:layout_weight="1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:id="@+id/linearLayout8">
+	            <ImageButton
+	                android:background="@drawable/monthEvent"
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:id="@+id/imageButton3" />
+	        </linearLayout>    
+			<linearLayout	
+            	android:orientation="vertical"
+            	android:layout_weight="1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:id="@+id/linearLayout9">
+	            <ImageButton
+	                android:src="@android:drawable/ic_menu_gallery"
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:id="@+id/imageButton4" />
+	           	</linearLayout>   -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout8">
+                <ImageButton
+                    android:src="@drawable/monthEvent"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton3" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout9">
+                <ImageButton
+                    android:src="@drawable/topRecomended"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton4" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="1.8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout7">
+            <ImageButton
+                android:src="@drawable/aboutSurabaya"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/imageButton5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
