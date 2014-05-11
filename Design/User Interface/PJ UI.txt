@@ -1,22 +1,22 @@
 Halaman	PJ	Status
 1	Nafi	done 8 Mei 2014
 2	Nafi
-3	
-4	
-5	
-6	
-7	
-8	
-9	
-10	
-11	
-12	
-13	
-14	
-15	
-16	
-17	
-18	
-19	
-20	
-21	
+3	Nafi
+4	Nafi
+5	Nafi
+6	Nafi
+7	Riri
+8	Riri
+9	Riri
+10  Riri
+11	Riri
+12	Oca
+13	Oca
+14	Oca
+15	Oca
+16	Oca
+17	Dede
+18	Dede
+19	Dede
+20	Dede
+21	Dede
