@@ -1,9 +1,0 @@
-http://stackoverflow.com/questions/18715613/use-a-local-database-in-xamarin
-http://docs.xamarin.com/guides/cross-platform/application_fundamentals/data/part_3_using_sqlite_orm/
-
-database browser:
-http://sourceforge.net/projects/sqlitebrowser/
-
-tutorial:
-http://shadym.blogspot.com/2013/07/using-your-own-pre-populated-sqlite.html
-http://www.reigndesign.com/blog/using-your-own-sqlite-database-in-android-applications/
