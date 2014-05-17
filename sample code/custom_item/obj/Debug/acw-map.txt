@@ -1,0 +1,2 @@
+custom_item.MainActivity;custom_item.MainActivity
+custom_item.adapter_listview;custom_item.adapter_listview

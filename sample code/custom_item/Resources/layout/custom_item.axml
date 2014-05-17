@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F7F8F5"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/tour" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:id="@+id/txtNombre"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFERNO"
+            android:textColor="#343434"
+            android:layout_marginTop="10dp"
+            android:typeface="normal"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtAuthor"
+            android:text="DAN BROWN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:textColor="#898a88" />
+        <ProgressBar
+            android:id="@+id/pbProgres"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="8dp"
+            android:progress="50"
+            android:layout_marginRight="10dp"
+            android:progressDrawable="@drawable/custom_progress" />
+        <TextView
+            android:id="@+id/txtPage"
+            android:text="60 DE 360 page"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#BCBCBC" />
+    </LinearLayout>
+</LinearLayout>
