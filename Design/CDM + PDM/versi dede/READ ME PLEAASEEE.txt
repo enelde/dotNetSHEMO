@@ -1,0 +1,41 @@
+Pertanyaan yang mungkin muncul dari cdm-pdm yang versi ini:
+
+1. Kenapa transportasi dipisah?
+Secara garis besar, konten dari transportasi umum (contoh bus dan bemo) memiliki konten/atribut yang beda dengan taxi.
+Kedua, kemungkinan besar transportasi umum kedepannya bisa berkembang. Mungkin nanti bisa ditambahkan busway, monorail, kereta, dll.
+
+2. Kenapa taxi sendiri?
+Sejauh ini transportasi yang mempunyai tarif berupa argo (waktu sebanding dengan jarak) masih hanya taxi, cmiiw.
+
+3. Kenapa restoran punya kategori?
+Kalo konsep restoran yang aku tau biasanya kan punya cuisine masing-masing. Nah, jenis ini maksudnya cuisine nya itu.
+Contoh cuisine yang banyak ada di restoran itu: italian, indian, french, seafood, chinese, japanese, steakhouse, american, sushi, padang, javanese, pizza, vegetarian,
+dll.
+
+4. Kenapa semua list yang ada di tour dipisah?
+Sebagian isi atributnya beda-beda jadi dipisah, dan sedikit kategori tour digabung.
+
+5. Yang digabung itu apa?
+Kalo di dalam desain, itu kan ada kategori taman sama entertainment. itu yang digabung jadi satu tabel (tabel rekreasi).
+
+6. Kenapa digabung padahal cuma dua?
+Karena selain struktur atribut yang sama, juga punya potensi berkembang dan memiliki jenis baru lagi dari rekreasi itu. Makanya disitu juga dimunculkan tabel kategori
+rekreasi.
+
+7. Tabel rekomendasi nya kok isinya sama wisata? Kenapa tidak disatukan saja?
+Masih bingung untuk menentukan relasi dan bagaimana solusi untuk pengambilan rekomendasi dari wisata, jadi lah dibuat baru tabelnya diluar wisata itu. Kalo merasa
+tidak sesuai atau salah, mungkin bisa tolong diperbaiki dan memberi tahu saya salahnya bagaimana. :D
+
+8. Tabel profil itu apa?
+Oh, itu untuk isian di dalam fitur about surabaya.
+
+9. Kenapa tidak ditulis langsung di code aja? Kan bukannya cuma satu data dan tidak perlu mengambil di database ya?
+Yaa kalau misalnya suatu saat dikembangkan jadi aplikasi yang berisikan data dari seluruh kota jawa timur (mungkin), atau mungkin se-Jawa bahkan mungkin se-Indonesia,
+yaa kan pasti butuh tabel untuk menangani kan? Itu aja sih...
+
+10. Kan namanya SHEMO, cuma surabaya aja, kenapa mikirnya se-Indonesia?
+Namanya pemikiran untuk pengembangan aplikasi. Kalo misal diganti nama atau tetap mau jadi se-Surabaya aja kayaknya ga masalah dibuatkan database sendiri ya kan? :)
+Kalo emang tetep lebih milih ga pakai database ya boleh, asal kesepakatan bersama aja biar database nya bisa di pastikan apa aja yang dipakai.
+
+SEKIAN...
+Kalo ada pertanyaan-pertanyaan tapi belum disebutkan di atas bisa ditanyakan pada chat FB. Terima Kasih :D
