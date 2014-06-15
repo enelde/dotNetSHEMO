@@ -81,3 +81,4 @@ C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\S
 C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
 C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
