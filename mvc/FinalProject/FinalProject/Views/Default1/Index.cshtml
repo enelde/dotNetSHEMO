@@ -1,0 +1,75 @@
+﻿@model IEnumerable<FinalProject.Models.WISATA>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nama_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Alamat_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telpon_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Foto_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Deskripsi_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Latitude_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Longitude_Wisata)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KATEGORI_WISATA.Kategori_Wisata1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nama_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Alamat_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telpon_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Foto_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Deskripsi_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Latitude_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Longitude_Wisata)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KATEGORI_WISATA.Kategori_Wisata1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_Wisata }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_Wisata }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_Wisata })
+        </td>
+    </tr>
+}
+
+</table>
