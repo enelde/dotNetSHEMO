@@ -38,7 +38,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -91,6 +99,23 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Home\Index.cshtml" />
+    <EntityDeploy Include="Models\SHEMO.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SHEMO.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\SHEMO.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SHEMO.edmx</DependentUpon>
+      <LastGenOutput>SHEMO.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\SHEMO.edmx.diagram">
+      <DependentUpon>SHEMO.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\SHEMO.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SHEMO.edmx</DependentUpon>
+      <LastGenOutput>SHEMO.cs</LastGenOutput>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\intro-pic.jpg" />
@@ -116,6 +141,69 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EVENT.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HOTEL.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KATEGORI_REKREASI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KATEGORI_RESTORAN.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KATEGORI_TRASPORTASI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KATEGORI_WISATA.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PROFILE.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\REKOMENDASI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\REKREASI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RESTORAN.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SHEMO.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SHEMO.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SHEMO.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SHEMO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SHEMO.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TAKSI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TRANSPORTASI.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WISATA.cs">
+      <DependentUpon>SHEMO.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -134,7 +222,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

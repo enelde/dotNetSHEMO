@@ -34,3 +34,7 @@ C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.W
 C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
 C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
