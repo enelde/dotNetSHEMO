@@ -15,3 +15,22 @@ C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bi
 C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Mvc.xml
 C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
