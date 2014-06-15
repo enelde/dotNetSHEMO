@@ -57,6 +57,5 @@ C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
-C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
