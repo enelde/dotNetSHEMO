@@ -139,6 +139,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\Default1Controller.cs" />
+    <Compile Include="Controllers\DetilWisataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WisataController.cs" />
     <Compile Include="Global.asax.cs">
@@ -222,6 +223,7 @@
     <Content Include="Views\Default1\Details.cshtml" />
     <Content Include="Views\Default1\Edit.cshtml" />
     <Content Include="Views\Default1\Index.cshtml" />
+    <Content Include="Views\DetilWisata\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
