@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SHEMOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="EVENT">
+    <Key>
+      <PropertyRef Name="ID_Event" />
+    </Key>
+    <Property Name="ID_Event" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Event" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Tanggal_Mulai" Type="DateTime" Precision="0" />
+    <Property Name="Tanggal_Selesai" Type="DateTime" Precision="0" />
+    <Property Name="Lokasi_Event" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Latitude_event" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_event" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="HOTEL">
+    <Key>
+      <PropertyRef Name="ID_Hotel" />
+    </Key>
+    <Property Name="ID_Hotel" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Hotel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Alamat_Hotel" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telpon_Hotel" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Foto_Hotel" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Website_Hotel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Bintang_Hotel" Type="Int32" />
+    <Property Name="Latitude_Hotel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_Hotel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="KATEGORI_REKREASI">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Rekreasi" />
+    </Key>
+    <Property Name="ID_Kategori_Rekreasi" Type="Int32" Nullable="false" />
+    <Property Name="Kategori_Rekreasi1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="REKREASIs" Relationship="Self.FK_REKREASI_KATEGORI_REKREASI" FromRole="KATEGORI_REKREASI" ToRole="REKREASI" />
+  </EntityType>
+  <EntityType Name="KATEGORI_RESTORAN">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Restoran" />
+    </Key>
+    <Property Name="ID_Kategori_Restoran" Type="Int32" Nullable="false" />
+    <Property Name="Kategori_Restoran1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="RESTORANs" Relationship="Self.FK_RESTORAN_KATEGORI_RESTORAN" FromRole="KATEGORI_RESTORAN" ToRole="RESTORAN" />
+  </EntityType>
+  <EntityType Name="KATEGORI_TRASPORTASI">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Transportasi" />
+    </Key>
+    <Property Name="ID_Kategori_Transportasi" Type="Int32" Nullable="false" />
+    <Property Name="Kategori_Transportasi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TRANSPORTASIs" Relationship="Self.FK_TRANSPORTASI_KATEGORI_TRASPORTASI" FromRole="KATEGORI_TRASPORTASI" ToRole="TRANSPORTASI" />
+  </EntityType>
+  <EntityType Name="KATEGORI_WISATA">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Wisata" />
+    </Key>
+    <Property Name="ID_Kategori_Wisata" Type="Int32" Nullable="false" />
+    <Property Name="Kategori_Wisata1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="WISATAs" Relationship="Self.FK_WISATA_KATEGORI_WISATA" FromRole="KATEGORI_WISATA" ToRole="WISATA" />
+  </EntityType>
+  <EntityType Name="PROFILE">
+    <Key>
+      <PropertyRef Name="ID_Profile" />
+    </Key>
+    <Property Name="ID_Profile" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Profile" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Foto_Profile" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Deskripsi_Profile" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="REKOMENDASI">
+    <Key>
+      <PropertyRef Name="ID_Rekomendasi" />
+    </Key>
+    <Property Name="ID_Rekomendasi" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Wisata_Rekomendasi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Alamat_Wisata_Rekomendasi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telpon_Wisata_Rekomendasi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Latitude_Wisata_Rekomendasi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_Wisata_Rekomendasi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="REKREASI">
+    <Key>
+      <PropertyRef Name="ID_Rekreasi" />
+    </Key>
+    <Property Name="ID_Rekreasi" Type="Int32" Nullable="false" />
+    <Property Name="ID_Kategori_Rekreasi" Type="Int32" />
+    <Property Name="Nama_Rekreasi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Alamat_Rekreasi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telpon_Rekreasi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Foto_Rekreasi" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Latitude_Rekreasi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_Rekreasi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="KATEGORI_REKREASI" Relationship="Self.FK_REKREASI_KATEGORI_REKREASI" FromRole="REKREASI" ToRole="KATEGORI_REKREASI" />
+  </EntityType>
+  <EntityType Name="RESTORAN">
+    <Key>
+      <PropertyRef Name="ID_Restoran" />
+    </Key>
+    <Property Name="ID_Restoran" Type="Int32" Nullable="false" />
+    <Property Name="ID_Kategori_Restoran" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Restoran" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Alamat_Restoran" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telpon_Restoran" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Foto_Restoran" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Latitude_Restoran" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_Restoran" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="KATEGORI_RESTORAN" Relationship="Self.FK_RESTORAN_KATEGORI_RESTORAN" FromRole="RESTORAN" ToRole="KATEGORI_RESTORAN" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TAKSI">
+    <Key>
+      <PropertyRef Name="ID_Taksi" />
+    </Key>
+    <Property Name="ID_Taksi" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Taksi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Telpon_Taksi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Minimum_Price" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="TRANSPORTASI">
+    <Key>
+      <PropertyRef Name="ID_Transportasi" />
+    </Key>
+    <Property Name="ID_Transportasi" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Transportasi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Rute_Asal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rute_Tujuan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ID_Kategori_Transportasi" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="KATEGORI_TRASPORTASI" Relationship="Self.FK_TRANSPORTASI_KATEGORI_TRASPORTASI" FromRole="TRANSPORTASI" ToRole="KATEGORI_TRASPORTASI" />
+  </EntityType>
+  <EntityType Name="WISATA">
+    <Key>
+      <PropertyRef Name="ID_Wisata" />
+    </Key>
+    <Property Name="ID_Wisata" Type="Int32" Nullable="false" />
+    <Property Name="ID_Kategori_Wisata" Type="Int32" Nullable="false" />
+    <Property Name="Nama_Wisata" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Alamat_Wisata" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telpon_Wisata" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Foto_Wisata" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Deskripsi_Wisata" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Latitude_Wisata" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Longitude_Wisata" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="KATEGORI_WISATA" Relationship="Self.FK_WISATA_KATEGORI_WISATA" FromRole="WISATA" ToRole="KATEGORI_WISATA" />
+  </EntityType>
+  <Association Name="FK_REKREASI_KATEGORI_REKREASI">
+    <End Role="KATEGORI_REKREASI" Type="Self.KATEGORI_REKREASI" Multiplicity="0..1" />
+    <End Role="REKREASI" Type="Self.REKREASI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_REKREASI">
+        <PropertyRef Name="ID_Kategori_Rekreasi" />
+      </Principal>
+      <Dependent Role="REKREASI">
+        <PropertyRef Name="ID_Kategori_Rekreasi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RESTORAN_KATEGORI_RESTORAN">
+    <End Role="KATEGORI_RESTORAN" Type="Self.KATEGORI_RESTORAN" Multiplicity="1" />
+    <End Role="RESTORAN" Type="Self.RESTORAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_RESTORAN">
+        <PropertyRef Name="ID_Kategori_Restoran" />
+      </Principal>
+      <Dependent Role="RESTORAN">
+        <PropertyRef Name="ID_Kategori_Restoran" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRANSPORTASI_KATEGORI_TRASPORTASI">
+    <End Role="KATEGORI_TRASPORTASI" Type="Self.KATEGORI_TRASPORTASI" Multiplicity="1" />
+    <End Role="TRANSPORTASI" Type="Self.TRANSPORTASI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_TRASPORTASI">
+        <PropertyRef Name="ID_Kategori_Transportasi" />
+      </Principal>
+      <Dependent Role="TRANSPORTASI">
+        <PropertyRef Name="ID_Kategori_Transportasi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WISATA_KATEGORI_WISATA">
+    <End Role="KATEGORI_WISATA" Type="Self.KATEGORI_WISATA" Multiplicity="1" />
+    <End Role="WISATA" Type="Self.WISATA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_WISATA">
+        <PropertyRef Name="ID_Kategori_Wisata" />
+      </Principal>
+      <Dependent Role="WISATA">
+        <PropertyRef Name="ID_Kategori_Wisata" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SHEMOEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EVENTs" EntityType="Self.EVENT" />
+    <EntitySet Name="HOTELs" EntityType="Self.HOTEL" />
+    <EntitySet Name="KATEGORI_REKREASI" EntityType="Self.KATEGORI_REKREASI" />
+    <EntitySet Name="KATEGORI_RESTORAN" EntityType="Self.KATEGORI_RESTORAN" />
+    <EntitySet Name="KATEGORI_TRASPORTASI" EntityType="Self.KATEGORI_TRASPORTASI" />
+    <EntitySet Name="KATEGORI_WISATA" EntityType="Self.KATEGORI_WISATA" />
+    <EntitySet Name="PROFILEs" EntityType="Self.PROFILE" />
+    <EntitySet Name="REKOMENDASIs" EntityType="Self.REKOMENDASI" />
+    <EntitySet Name="REKREASIs" EntityType="Self.REKREASI" />
+    <EntitySet Name="RESTORANs" EntityType="Self.RESTORAN" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TAKSIs" EntityType="Self.TAKSI" />
+    <EntitySet Name="TRANSPORTASIs" EntityType="Self.TRANSPORTASI" />
+    <EntitySet Name="WISATAs" EntityType="Self.WISATA" />
+    <AssociationSet Name="FK_REKREASI_KATEGORI_REKREASI" Association="Self.FK_REKREASI_KATEGORI_REKREASI">
+      <End Role="KATEGORI_REKREASI" EntitySet="KATEGORI_REKREASI" />
+      <End Role="REKREASI" EntitySet="REKREASIs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RESTORAN_KATEGORI_RESTORAN" Association="Self.FK_RESTORAN_KATEGORI_RESTORAN">
+      <End Role="KATEGORI_RESTORAN" EntitySet="KATEGORI_RESTORAN" />
+      <End Role="RESTORAN" EntitySet="RESTORANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRANSPORTASI_KATEGORI_TRASPORTASI" Association="Self.FK_TRANSPORTASI_KATEGORI_TRASPORTASI">
+      <End Role="KATEGORI_TRASPORTASI" EntitySet="KATEGORI_TRASPORTASI" />
+      <End Role="TRANSPORTASI" EntitySet="TRANSPORTASIs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WISATA_KATEGORI_WISATA" Association="Self.FK_WISATA_KATEGORI_WISATA">
+      <End Role="KATEGORI_WISATA" EntitySet="KATEGORI_WISATA" />
+      <End Role="WISATA" EntitySet="WISATAs" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SHEMOModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SHEMOModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

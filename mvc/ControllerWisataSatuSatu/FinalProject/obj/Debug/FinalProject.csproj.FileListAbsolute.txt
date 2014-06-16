@@ -1,0 +1,152 @@
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\Riri\documents\visual studio 2012\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\enelde\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.dll.config
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.pdb
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Razor.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Razor.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Razor.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Razor.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\akhmadbakhrul\Desktop\FinalProject\FinalProject\obj\Debug\FinalProject.pdb

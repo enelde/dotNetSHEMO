@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e44422463dce45e5b0293a38033aa37a" Name="Diagram1">
+        <EntityTypeShape EntityType="SHEMOModel.EVENT" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.HOTEL" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.KATEGORI_REKREASI" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.KATEGORI_RESTORAN" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.KATEGORI_TRASPORTASI" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.KATEGORI_WISATA" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.PROFILE" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.REKOMENDASI" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.REKREASI" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.RESTORAN" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.sysdiagram" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.TAKSI" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.TRANSPORTASI" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHEMOModel.WISATA" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="SHEMOModel.FK_REKREASI_KATEGORI_REKREASI" ManuallyRouted="false" />
+        <AssociationConnector Association="SHEMOModel.FK_RESTORAN_KATEGORI_RESTORAN" ManuallyRouted="false" />
+        <AssociationConnector Association="SHEMOModel.FK_TRANSPORTASI_KATEGORI_TRASPORTASI" ManuallyRouted="false" />
+        <AssociationConnector Association="SHEMOModel.FK_WISATA_KATEGORI_WISATA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SHEMOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EVENT">
+    <Key>
+      <PropertyRef Name="ID_Event" />
+    </Key>
+    <Property Name="ID_Event" Type="int" Nullable="false" />
+    <Property Name="Nama_Event" Type="varchar" MaxLength="20" />
+    <Property Name="Tanggal_Mulai" Type="date" />
+    <Property Name="Tanggal_Selesai" Type="date" />
+    <Property Name="Lokasi_Event" Type="varchar" MaxLength="100" />
+    <Property Name="Latitude_event" Type="varchar" MaxLength="50" />
+    <Property Name="Longitude_event" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HOTEL">
+    <Key>
+      <PropertyRef Name="ID_Hotel" />
+    </Key>
+    <Property Name="ID_Hotel" Type="int" Nullable="false" />
+    <Property Name="Nama_Hotel" Type="varchar" MaxLength="20" />
+    <Property Name="Alamat_Hotel" Type="varchar" MaxLength="100" />
+    <Property Name="Telpon_Hotel" Type="varchar" MaxLength="15" />
+    <Property Name="Foto_Hotel" Type="image" />
+    <Property Name="Website_Hotel" Type="varchar" MaxLength="20" />
+    <Property Name="Bintang_Hotel" Type="int" />
+    <Property Name="Latitude_Hotel" Type="varchar" MaxLength="50" />
+    <Property Name="Longitude_Hotel" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KATEGORI_REKREASI">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Rekreasi" />
+    </Key>
+    <Property Name="ID_Kategori_Rekreasi" Type="int" Nullable="false" />
+    <Property Name="Kategori_Rekreasi" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KATEGORI_RESTORAN">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Restoran" />
+    </Key>
+    <Property Name="ID_Kategori_Restoran" Type="int" Nullable="false" />
+    <Property Name="Kategori_Restoran" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="KATEGORI_TRASPORTASI">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Transportasi" />
+    </Key>
+    <Property Name="ID_Kategori_Transportasi" Type="int" Nullable="false" />
+    <Property Name="Kategori_Transportasi" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KATEGORI_WISATA">
+    <Key>
+      <PropertyRef Name="ID_Kategori_Wisata" />
+    </Key>
+    <Property Name="ID_Kategori_Wisata" Type="int" Nullable="false" />
+    <Property Name="Kategori_Wisata" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROFILE">
+    <Key>
+      <PropertyRef Name="ID_Profile" />
+    </Key>
+    <Property Name="ID_Profile" Type="int" Nullable="false" />
+    <Property Name="Nama_Profile" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Foto_Profile" Type="image" />
+    <Property Name="Deskripsi_Profile" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="REKOMENDASI">
+    <Key>
+      <PropertyRef Name="ID_Rekomendasi" />
+    </Key>
+    <Property Name="ID_Rekomendasi" Type="int" Nullable="false" />
+    <Property Name="Nama_Wisata_Rekomendasi" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Alamat_Wisata_Rekomendasi" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telpon_Wisata_Rekomendasi" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Latitude_Wisata_Rekomendasi" Type="varchar" MaxLength="30" />
+    <Property Name="Longitude_Wisata_Rekomendasi" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="REKREASI">
+    <Key>
+      <PropertyRef Name="ID_Rekreasi" />
+    </Key>
+    <Property Name="ID_Rekreasi" Type="int" Nullable="false" />
+    <Property Name="ID_Kategori_Rekreasi" Type="int" />
+    <Property Name="Nama_Rekreasi" Type="varchar" MaxLength="50" />
+    <Property Name="Alamat_Rekreasi" Type="varchar" MaxLength="50" />
+    <Property Name="Telpon_Rekreasi" Type="varchar" MaxLength="15" />
+    <Property Name="Foto_Rekreasi" Type="image" />
+    <Property Name="Latitude_Rekreasi" Type="varchar" MaxLength="30" />
+    <Property Name="Longitude_Rekreasi" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="RESTORAN">
+    <Key>
+      <PropertyRef Name="ID_Restoran" />
+    </Key>
+    <Property Name="ID_Restoran" Type="int" Nullable="false" />
+    <Property Name="ID_Kategori_Restoran" Type="int" Nullable="false" />
+    <Property Name="Nama_Restoran" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Alamat_Restoran" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telpon_Restoran" Type="varchar" MaxLength="15" />
+    <Property Name="Foto_Restoran" Type="image" />
+    <Property Name="Latitude_Restoran" Type="varchar" MaxLength="30" />
+    <Property Name="Longitude_Restoran" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TAKSI">
+    <Key>
+      <PropertyRef Name="ID_Taksi" />
+    </Key>
+    <Property Name="ID_Taksi" Type="int" Nullable="false" />
+    <Property Name="Nama_Taksi" Type="varchar" MaxLength="20" />
+    <Property Name="Telpon_Taksi" Type="varchar" MaxLength="15" />
+    <Property Name="Minimum_Price" Type="money" />
+  </EntityType>
+  <EntityType Name="TRANSPORTASI">
+    <Key>
+      <PropertyRef Name="ID_Transportasi" />
+    </Key>
+    <Property Name="ID_Transportasi" Type="int" Nullable="false" />
+    <Property Name="Nama_Transportasi" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Rute_Asal" Type="varchar" MaxLength="50" />
+    <Property Name="Rute_Tujuan" Type="varchar" MaxLength="50" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="ID_Kategori_Transportasi" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WISATA">
+    <Key>
+      <PropertyRef Name="ID_Wisata" />
+    </Key>
+    <Property Name="ID_Wisata" Type="int" Nullable="false" />
+    <Property Name="ID_Kategori_Wisata" Type="int" Nullable="false" />
+    <Property Name="Nama_Wisata" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Alamat_Wisata" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telpon_Wisata" Type="varchar" MaxLength="15" />
+    <Property Name="Foto_Wisata" Type="image" />
+    <Property Name="Deskripsi_Wisata" Type="varchar" MaxLength="100" />
+    <Property Name="Latitude_Wisata" Type="varchar" MaxLength="30" />
+    <Property Name="Longitude_Wisata" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK_REKREASI_KATEGORI_REKREASI">
+    <End Role="KATEGORI_REKREASI" Type="Self.KATEGORI_REKREASI" Multiplicity="0..1" />
+    <End Role="REKREASI" Type="Self.REKREASI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_REKREASI">
+        <PropertyRef Name="ID_Kategori_Rekreasi" />
+      </Principal>
+      <Dependent Role="REKREASI">
+        <PropertyRef Name="ID_Kategori_Rekreasi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RESTORAN_KATEGORI_RESTORAN">
+    <End Role="KATEGORI_RESTORAN" Type="Self.KATEGORI_RESTORAN" Multiplicity="1" />
+    <End Role="RESTORAN" Type="Self.RESTORAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_RESTORAN">
+        <PropertyRef Name="ID_Kategori_Restoran" />
+      </Principal>
+      <Dependent Role="RESTORAN">
+        <PropertyRef Name="ID_Kategori_Restoran" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TRANSPORTASI_KATEGORI_TRASPORTASI">
+    <End Role="KATEGORI_TRASPORTASI" Type="Self.KATEGORI_TRASPORTASI" Multiplicity="1" />
+    <End Role="TRANSPORTASI" Type="Self.TRANSPORTASI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_TRASPORTASI">
+        <PropertyRef Name="ID_Kategori_Transportasi" />
+      </Principal>
+      <Dependent Role="TRANSPORTASI">
+        <PropertyRef Name="ID_Kategori_Transportasi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WISATA_KATEGORI_WISATA">
+    <End Role="KATEGORI_WISATA" Type="Self.KATEGORI_WISATA" Multiplicity="1" />
+    <End Role="WISATA" Type="Self.WISATA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI_WISATA">
+        <PropertyRef Name="ID_Kategori_Wisata" />
+      </Principal>
+      <Dependent Role="WISATA">
+        <PropertyRef Name="ID_Kategori_Wisata" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="SHEMOModelStoreContainer">
+    <EntitySet Name="EVENT" EntityType="Self.EVENT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOTEL" EntityType="Self.HOTEL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KATEGORI_REKREASI" EntityType="Self.KATEGORI_REKREASI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KATEGORI_RESTORAN" EntityType="Self.KATEGORI_RESTORAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KATEGORI_TRASPORTASI" EntityType="Self.KATEGORI_TRASPORTASI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KATEGORI_WISATA" EntityType="Self.KATEGORI_WISATA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROFILE" EntityType="Self.PROFILE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REKOMENDASI" EntityType="Self.REKOMENDASI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REKREASI" EntityType="Self.REKREASI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RESTORAN" EntityType="Self.RESTORAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAKSI" EntityType="Self.TAKSI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRANSPORTASI" EntityType="Self.TRANSPORTASI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WISATA" EntityType="Self.WISATA" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_REKREASI_KATEGORI_REKREASI" Association="Self.FK_REKREASI_KATEGORI_REKREASI">
+      <End Role="KATEGORI_REKREASI" EntitySet="KATEGORI_REKREASI" />
+      <End Role="REKREASI" EntitySet="REKREASI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RESTORAN_KATEGORI_RESTORAN" Association="Self.FK_RESTORAN_KATEGORI_RESTORAN">
+      <End Role="KATEGORI_RESTORAN" EntitySet="KATEGORI_RESTORAN" />
+      <End Role="RESTORAN" EntitySet="RESTORAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TRANSPORTASI_KATEGORI_TRASPORTASI" Association="Self.FK_TRANSPORTASI_KATEGORI_TRASPORTASI">
+      <End Role="KATEGORI_TRASPORTASI" EntitySet="KATEGORI_TRASPORTASI" />
+      <End Role="TRANSPORTASI" EntitySet="TRANSPORTASI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WISATA_KATEGORI_WISATA" Association="Self.FK_WISATA_KATEGORI_WISATA">
+      <End Role="KATEGORI_WISATA" EntitySet="KATEGORI_WISATA" />
+      <End Role="WISATA" EntitySet="WISATA" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
