@@ -23,8 +23,8 @@
                 </button>
            
                 @*<a class="navbar-brand" href="index.html">Business Casual</a>*@
-                @Html.ActionLink("Aplicationname",
-                            "index", "Home",
+                @Html.ActionLink("SHEMO",
+                            "Index", "Home",
                             new { area = "" },
                             new { @class= "navbar-brand"})
             </div>
@@ -35,8 +35,8 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home","Index","Home")</li>
                     <li>@Html.ActionLink("Wisata","Index/1","Default1")</li>
-                    
-                    <li>@Html.ActionLink("Tour","Index","Mount Event")</li>
+                    <li>@Html.ActionLink("Tour", "Index", "Tour")</li>
+                    <li>@Html.ActionLink("Month Event","Index","MonthEvent")</li>
                     <li>@Html.ActionLink("About","Index","About")</li>
                     
                 </ul>
@@ -49,8 +49,8 @@
      <hr>
       <hr>  
          
-    <div class="brand">SHEMO</div>
-    <div class="address-bar">Surabaya Heritage in MOBILE ???</div>
+    @*<div class="brand">SHEMO</div>
+    <div class="address-bar">Surabaya Heritage in MOBILE ???</div>*@
 
     @*<footer>
         <div class="container">
@@ -61,11 +61,15 @@
             </div>
         </div>
     </footer>*@
+
         <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
             <p>SHEMO .NET E - @DateTime.Now.Year</p>
+            <div class="col-lg-12 text-center">
+                <p>Copyright &copy; .NET E</p>
+            </div>
         </footer>
     </div>
     <!-- JavaScript -->

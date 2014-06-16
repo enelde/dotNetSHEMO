@@ -141,6 +141,8 @@
     <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\DetilWisataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MonthEventController.cs" />
+    <Compile Include="Controllers\TourController.cs" />
     <Compile Include="Controllers\WisataController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -225,6 +227,8 @@
     <Content Include="Views\Default1\Index.cshtml" />
     <Content Include="Views\DetilWisata\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutWisata.cshtml" />
+    <Content Include="Views\MonthEvent\Index.cshtml" />
+    <Content Include="Views\Tour\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

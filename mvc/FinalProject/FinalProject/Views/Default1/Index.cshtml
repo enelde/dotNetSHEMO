@@ -36,16 +36,17 @@
                 @Html.DisplayNameFor(model => model.Deskripsi_Wisata)
             </th>
             @*<th>
-                @Html.DisplayNameFor(model => model.Latitude_Wisata)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Longitude_Wisata)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.KATEGORI_WISATA.Kategori_Wisata1)
-            </th>*@
+                    @Html.DisplayNameFor(model => model.Latitude_Wisata)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Longitude_Wisata)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.KATEGORI_WISATA.Kategori_Wisata1)
+                </th>*@
             <th></th>
         </tr>
+
 
         @foreach (var item in Model)
         {
@@ -66,14 +67,14 @@
                     @Html.DisplayFor(modelItem => item.Deskripsi_Wisata)
                 </td>
                 @*<td>
-                    @Html.DisplayFor(modelItem => item.Latitude_Wisata)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Longitude_Wisata)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.KATEGORI_WISATA.Kategori_Wisata1)
-                </td>*@
+                        @Html.DisplayFor(modelItem => item.Latitude_Wisata)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Longitude_Wisata)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KATEGORI_WISATA.Kategori_Wisata1)
+                    </td>*@
                 <td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.ID_Wisata }) |
                     @Html.ActionLink("Details", "Details", new { id = item.ID_Wisata }) |
@@ -81,5 +82,6 @@
                 </td>
             </tr>
         }
+    </table>
 </div>
-</table>
+
