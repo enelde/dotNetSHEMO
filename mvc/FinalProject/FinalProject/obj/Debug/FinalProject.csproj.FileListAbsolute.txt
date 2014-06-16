@@ -82,3 +82,26 @@ C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\D
 C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\akhmadbakhrul\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
 C:\Users\Riri\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.dll.config
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\FinalProject.pdb
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Razor.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Razor.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+E:\SEMESTER 6\Pemrograman .NET E\Final Project\MVC WEB\FinalProject\FinalProject\obj\Debug\FinalProject.pdb

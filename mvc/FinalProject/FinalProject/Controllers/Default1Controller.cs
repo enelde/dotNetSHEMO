@@ -17,8 +17,93 @@ namespace FinalProject.Controllers
         // GET: /Default1/
         public ActionResult Index()
         {
-            var wisatas = db.WISATAs.Include(w => w.KATEGORI_WISATA);
-            return View(wisatas.ToList());
+            //idx = 1;
+            //var wisatas = db.WISATAs.Include(w => w.KATEGORI_WISATA);
+            //return View(wisatas.ToList());
+            //string choose;
+
+            //switch(choose)
+            //{
+            //    case "Bersejarah" :
+            //        var a = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(1)
+            //                select w;
+            //        return View(a.ToList());
+            //        break;
+            //    case "Religi" :
+            //        var b = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(2)
+            //                select w;
+            //        return View(b.ToList());
+            //        break;
+            //    case "Museum" :
+            //        var c = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(3)
+            //                select w;
+            //        return View(c.ToList());
+            //        break;
+            //    case "Monumen":
+            //        var d = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(4)
+            //                select w;
+            //        return View(d.ToList());
+            //        break;
+            //    case "Taman Kota":
+            //        var e = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(5)
+            //                select w;
+            //        return View (e.ToList());
+            //        break;
+            //    case "Mall":
+            //        var f = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(6)
+            //                select w;
+            //        return View(f.ToList());
+            //        break;
+            //    case "Alam":
+            //        var g = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(7)
+            //                select w;
+            //        return View(g.ToList());
+            //        break;
+            //    case "Pasar":
+            //        var h = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(8)
+            //                select w;
+            //        return View(h.ToList());
+            //        break;
+            //    case "Kuliner":
+            //        var i = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(9)
+            //                select w;
+            //        return View(i.ToList());
+            //        break;
+            //    case "Golf":
+            //        var j = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(10)
+            //                select w;
+            //        return View(j.ToList());
+            //        break;
+            //    case "Kampung":
+            //        var k = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(11)
+            //                select w;
+            //        return View(k.ToList());
+            //        break;
+            //    case "Souvenir":
+            //        var l = from w in db.WISATAs
+            //                where w.ID_Kategori_Wisata.Equals(12)
+            //                select w;
+            //        return View(l.ToList());
+            //        break;
+            //    default: break;
+            //}
+            
+            var wisa = from w in db.WISATAs
+                        where w.ID_Kategori_Wisata.Equals(1)
+                        select w;
+            return View(wisa);
+
         }
 
         // GET: /Default1/Details/5

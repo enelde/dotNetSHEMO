@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- Add custom CSS here -->
+    <link href="~/Content/business-casual.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                @*<a class="navbar-brand" href="index.html">Business Casual</a>*@
+                @Html.ActionLink("Aplicationname",
+                            "index", "Home",
+                            new { area = "" },
+                            new { @class = "navbar-brand" })
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Wisata", "Index", "Default1")</li>
+
+                    <li>@Html.ActionLink("Tour", "Index", "Mount Event")</li>
+                    <li>@Html.ActionLink("About", "Index", "About")</li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar" style="margin-top:100px">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Bersejarah", "Index", "Default1", new { idx = 1 })</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Religi", "Index/2", "Default1")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Museum", "Index", "Mount Museum")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Monumen", "Index", "Monumen")<li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Taman Kota", "Index", "Taman_Kota")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Mall", "Index", "Mall")</li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Alam", "Index", "Alam")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Pasar", "Index", "Pasar")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Kuliner", "Index", "Kuliner")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Golf", "Index", "Golf")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Kampung", "Index", "Kampung")</li>
+                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Souvenir", "Index", "Souvenir")</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- /.navbar-collapse -->
+   
+    <!-- /.container -->
+    <!-- /.container -->
+    @RenderBody()
+    <hr>
+    <hr>
+

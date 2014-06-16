@@ -224,6 +224,7 @@
     <Content Include="Views\Default1\Edit.cshtml" />
     <Content Include="Views\Default1\Index.cshtml" />
     <Content Include="Views\DetilWisata\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutWisata.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
