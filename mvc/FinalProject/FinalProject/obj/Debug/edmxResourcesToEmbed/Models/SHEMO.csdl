@@ -200,7 +200,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="SHEMOEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="SHEMOEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="EVENTs" EntityType="Self.EVENT" />
     <EntitySet Name="HOTELs" EntityType="Self.HOTEL" />
     <EntitySet Name="KATEGORI_REKREASI" EntityType="Self.KATEGORI_REKREASI" />

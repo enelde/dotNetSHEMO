@@ -1,0 +1,47 @@
+﻿@model IEnumerable<FinalProject.Models.EVENT>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Result</h2>
+
+<div class="container" style="background-color:rgba(123,123,123,0.7);">
+    <table class="table">
+        <tr>
+            @Html.ActionLink("Back", "Index");
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nama_Event)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tanggal_Mulai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tanggal_Selesai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lokasi_Event)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nama_Event)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tanggal_Mulai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tanggal_Selesai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Lokasi_Event)
+                </td>
+            </tr>
+        }
+    </table>
+</div>

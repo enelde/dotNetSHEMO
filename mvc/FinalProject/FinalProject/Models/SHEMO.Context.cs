@@ -15,10 +15,10 @@ namespace FinalProject.Models
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class SHEMOEntities : DbContext
+    public partial class SHEMOEntities1 : DbContext
     {
-        public SHEMOEntities()
-            : base("name=SHEMOEntities")
+        public SHEMOEntities1()
+            : base("name=SHEMOEntities1")
         {
         }
     

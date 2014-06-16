@@ -12,7 +12,7 @@ namespace FinalProject.Controllers
 {
     public class Default1Controller : Controller
     {
-        private SHEMOEntities db = new SHEMOEntities();
+        private SHEMOEntities1 db = new SHEMOEntities1();
 
         // GET: /Default1/
         public ActionResult Index()

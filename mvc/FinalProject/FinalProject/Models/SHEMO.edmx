@@ -465,7 +465,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SHEMOEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="SHEMOEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="EVENTs" EntityType="Self.EVENT" />
           <EntitySet Name="HOTELs" EntityType="Self.HOTEL" />
           <EntitySet Name="KATEGORI_REKREASI" EntityType="Self.KATEGORI_REKREASI" />
@@ -543,7 +543,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SHEMOModelStoreContainer" CdmEntityContainer="SHEMOEntities">
+        <EntityContainerMapping StorageEntityContainer="SHEMOModelStoreContainer" CdmEntityContainer="SHEMOEntities1">
           <EntitySetMapping Name="EVENTs">
             <EntityTypeMapping TypeName="SHEMOModel.EVENT">
               <MappingFragment StoreEntitySet="EVENT">

@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e44422463dce45e5b0293a38033aa37a" Name="Diagram1">
+      <Diagram DiagramId="20741e438a794f7fa9acaf5e35931d51" Name="Diagram1">
         <EntityTypeShape EntityType="SHEMOModel.EVENT" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SHEMOModel.HOTEL" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SHEMOModel.KATEGORI_REKREASI" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />

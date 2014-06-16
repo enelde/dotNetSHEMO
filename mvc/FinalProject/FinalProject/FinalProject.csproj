@@ -229,6 +229,7 @@
     <Content Include="Views\Shared\_LayoutWisata.cshtml" />
     <Content Include="Views\MonthEvent\Index.cshtml" />
     <Content Include="Views\Tour\Index.cshtml" />
+    <Content Include="Views\MonthEvent\Search.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

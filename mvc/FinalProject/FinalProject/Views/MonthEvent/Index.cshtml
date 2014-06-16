@@ -2,4 +2,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@using (Html.BeginForm("Search", "MonthEvent"))
+{
+    @*Html.TextBox("bulan")*@
+
+    <select id="Bulan" name="Bulan">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+
+    </select>
+    <input type="submit" value="Search" />
+}
 
