@@ -1,27 +1,78 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+    <div class="kategori-Wisata" style="font-size:x-large">
+        <div>
+            <ul class="nav nav-tabs" id="myTab" >
+                <li><a data-toggle="tab" href="#Bersejarah">Bersejarah</a></li>
+                <li><a data-toggle="tab" href="#Religi">Religi</a></li>
+                <li><a data-toggle="tab" href="#Museum">Museum</a></li>
+                <li><a data-toggle="tab" href="#Monumen">Monumen</a></li>
+                <li><a data-toggle="tab" href="#TamanKota">Taman Kota</a></li>
+                <li><a data-toggle="tab" href="#Mall">Mall</a></li>
+             <br> <br>
+                <li><a data-toggle="tab" href="#Alam">Alam</a></li>
+                <li><a data-toggle="tab" href="#Pasar">Pasar</a></li>
+                <li><a data-toggle="tab" href="#Kuliner">Kuliner</a></li>
+                <li><a data-toggle="tab" href="#Golf">Golf</a></li>
+                <li><a data-toggle="tab" href="#Kampung">Kampung</a></li>
+                <li><a data-toggle="tab" href="#Souvenir">Souvenir</a></li>
+            </ul>
+            </div>
 
-    <nav class="navbar" style="margin-top:50px">
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Bersejarah", "Index", "Default1", new { idx = 1 })</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Religi", "Index/2", "Default1")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Museum", "Index", "Mount Museum")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Monumen", "Index", "Monumen")<li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Taman Kota", "Index", "Taman_Kota")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Mall", "Index", "Mall")</li>
-            </ul>
-            <ul class="nav navbar-nav">
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Alam", "Index", "Alam")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Pasar", "Index", "Pasar")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Kuliner", "Index", "Kuliner")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Golf", "Index", "Golf")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Kampung", "Index", "Kampung")</li>
-                <li style="background-color:rgba(255,255,100,0.9);">@Html.ActionLink("Souvenir", "Index", "Souvenir")</li>
-            </ul>
+            <div class="tab-content">
+            <div id="Bersejarah" class="tab-pane fade in active">
+                <@*h3>Section A</h3>
+                <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+           *@ </div>
+            <div id="Religi" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Museum" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Monumen" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="TamanKota" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Mall" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Alam" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Pasar" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Kuliner" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Golf" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Kampung" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            <div id="Souvenir" class="tab-pane fade in active">
+               @* <h3>Section B</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            *@</div>
+            
         </div>
-    </nav>
+        </div>
+ 
 
     <!-- /.navbar-collapse -->
    
