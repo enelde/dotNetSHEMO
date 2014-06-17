@@ -1,0 +1,70 @@
+﻿@model IEnumerable<FinalProject.Models.RESTORAN>
+
+@{
+    ViewBag.Title = "Sop";
+    Layout = "~/Views/Shared/_LayoutTour.cshtml";
+}
+
+<h2>Sop</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nama_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Alamat_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telpon_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Foto_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Latitude_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Longitude_Restoran)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KATEGORI_RESTORAN.Kategori_Restoran1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nama_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Alamat_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telpon_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Foto_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Latitude_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Longitude_Restoran)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KATEGORI_RESTORAN.Kategori_Restoran1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_Restoran }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_Restoran }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_Restoran })
+        </td>
+    </tr>
+}
+
+</table>

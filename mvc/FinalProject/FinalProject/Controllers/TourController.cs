@@ -92,29 +92,93 @@ namespace FinalProject.Controllers
         public ActionResult Bintang2()
         {
             var bintang2 = from b2 in db.HOTELs
-                           select b2.Bintang_Hotel.Equals(2);
+                           where b2.Bintang_Hotel.Equals(2)
+                           select b2;
             return View(bintang2);
         }
 
         public ActionResult Bintang3()
         {
             var bintang3 = from b3 in db.HOTELs
-                           select b3.Bintang_Hotel.Equals(3);
+                           where b3.Bintang_Hotel.Equals(3)
+                               select b3;
             return View(bintang3);
         }
 
         public ActionResult Bintang4()
         {
             var bintang4 = from b4 in db.HOTELs
-                           select b4.Bintang_Hotel.Equals(4);
+                           where b4.Bintang_Hotel.Equals(4)
+                               select b4;
             return View(bintang4);
         }
 
         public ActionResult Bintang5()
         {
             var bintang5 = from b5 in db.HOTELs
-                           select b5.Bintang_Hotel.Equals(5);
+                           where b5.Bintang_Hotel.Equals(5)
+                           select b5;
             return View(bintang5);
         }
+
+        public ActionResult Ayam()
+        {
+            var ayam = from a in db.RESTORANs
+                       where a.ID_Kategori_Restoran.Equals(1)
+                       select a;
+            return View(ayam);
+        }
+
+        public ActionResult Lontong()
+        {
+            var lontong = from l in db.RESTORANs
+                       where l.ID_Kategori_Restoran.Equals(2)
+                       select l;
+            return View(lontong);
+        }
+
+        public ActionResult Soto()
+        {
+            var soto = from so in db.RESTORANs
+                       where so.ID_Kategori_Restoran.Equals(3)
+                       select so;
+            return View(soto);
+        }
+
+        public ActionResult Sate()
+        {
+            var sate = from sa in db.RESTORANs
+                       where sa.ID_Kategori_Restoran.Equals(4)
+                       select sa;
+            return View(sate);
+        }
+
+        public ActionResult Sop()
+        {
+            var sop = from s in db.RESTORANs
+                       where s.ID_Kategori_Restoran.Equals(5)
+                       select s;
+            return View(sop);
+        }
+
+        public ActionResult Taman()
+        {
+            var taman = from ta in db.REKREASIs
+                      where ta.KATEGORI_REKREASI.Equals(1)
+                      select ta;
+            return View(taman);
+        }
+
+        public ActionResult Hiburan()
+        {
+            var hiburan = from h in db.REKREASIs
+                      where h.KATEGORI_REKREASI.Equals(2)
+                      select h;
+            return View(hiburan);
+        }
+
+
+
+
     }
 }

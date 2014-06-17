@@ -238,6 +238,14 @@
     <Content Include="Views\Tour\Taksi.cshtml" />
     <Content Include="Views\Tour\Bintang1.cshtml" />
     <Content Include="Views\Tour\Bintang2.cshtml" />
+    <Content Include="Views\Tour\Bintang3.cshtml" />
+    <Content Include="Views\Tour\Ayam.cshtml" />
+    <Content Include="Views\Tour\Lontong.cshtml" />
+    <Content Include="Views\Tour\Soto.cshtml" />
+    <Content Include="Views\Tour\Sate.cshtml" />
+    <Content Include="Views\Tour\Sop.cshtml" />
+    <Content Include="Views\Tour\Taman.cshtml" />
+    <Content Include="Views\Tour\Hiburan.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
