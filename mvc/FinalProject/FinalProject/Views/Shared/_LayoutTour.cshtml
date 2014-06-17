@@ -1,0 +1,123 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div class="bs-example">
+        <ul class="nav nav-tabs" id="myTab">
+            <li><a data-toggle="tab" href="#transport">Transportasi</a></li>
+            <li><a data-toggle="tab" href="#hotel">Hotel</a></li>
+            <li><a data-toggle="tab" href="#resto">Restoran</a></li>
+            <li><a data-toggle="tab" href="#rekreasi">Rekreasi</a></li>
+
+            @*<li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Transportasi<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Transportasi", "Transportasi", "Tour")</li>
+                        <li><a data-toggle="tab" href="#bemo">Bemo</a></li>
+                        <li><a data-toggle="tab" href="#kapal">Kapal</a></li>
+                        <li><a data-toggle="tab" href="#pesawat">Pesawat</a></li>
+                        <li><a data-toggle="tab" href="#taksi">Taksi</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Hotel<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a data-toggle="tab" href="#b1">Bintang 1</a></li>
+                        <li><a data-toggle="tab" href="#b2">Bintang 2</a></li>
+                        <li><a data-toggle="tab" href="#b3">Bintang 3</a></li>
+                        <li><a data-toggle="tab" href="#b4">Bintang 4</a></li>
+                        <li><a data-toggle="tab" href="#b5">Bintang 5</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Restoran<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a data-toggle="tab" href="#r1">Ayam & Bebek</a></li>
+                        <li><a data-toggle="tab" href="#r2">Lontong Balap</a></li>
+                        <li><a data-toggle="tab" href="#r3">Sate</a></li>
+                        <li><a data-toggle="tab" href="#r4">Soto</a></li>
+                        <li><a data-toggle="tab" href="#r5">Sop</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Rekreasi<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a data-toggle="tab" href="#e1">Hiburan</a></li>
+                        <li><a data-toggle="tab" href="#e2">Taman</a></li>
+                    </ul>
+                </li>*@
+        </ul>
+
+
+        <div class="tab-content">
+            <div id="transport" class="tab-pane fade in active">
+                <h3>Transportasi</h3>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("bus", "Bus", "Tour")</li>
+                        <li>@Html.ActionLink("bemo", "Bemo", "Tour")</li>
+                        <li>@Html.ActionLink("kereta", "Kereta", "Tour")</li>
+                        <li>@Html.ActionLink("pesawat", "Pesawat", "Tour")</li>
+                        <li>@Html.ActionLink("taksi", "Taksi", "Tour")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hotel" class="tab-pane fade in active">
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <h3>Hotel</h3>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Bintang 1", "Index", "Bus")</li>
+                        <li>@Html.ActionLink("Bintang 2", "Index", "Default1")</li>
+                        <li>@Html.ActionLink("Bintang 3", "Index", "Tour")</li>
+                        <li>@Html.ActionLink("Bintang 4", "Index", "MonthEvent")</li>
+                        <li>@Html.ActionLink("Bintang 5", "Index", "About")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="resto" class="tab-pane fade in active">
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <h3>Restoran</h3>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Ayam dan Bebek", "Index", "Bus")</li>
+                        <li>@Html.ActionLink("Lontong Balap", "Index", "Default1")</li>
+                        <li>@Html.ActionLink("Sate", "Index", "Tour")</li>
+                        <li>@Html.ActionLink("Soto", "Index", "MonthEvent")</li>
+                        <li>@Html.ActionLink("Sop", "Index", "About")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rekreasi" class="tab-pane fade in active">
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <h3>Rekreasi</h3>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Taman", "Index", "Bus")</li>
+                        <li>@Html.ActionLink("Hiburan", "Index", "Default1")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+    <hr>
+    <hr>
+</body>
+</html>
+
+
+@*<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <div>
+            @RenderBody()
+        </div>
+    </body>
+    </html>*@
+
+

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FinalProject.Models.TRANSPORTASI>
+
+@{
+    ViewBag.Title = "Bemo";
+    Layout = "~/Views/Shared/_LayoutTour.cshtml";
+}
+
+<table class="table" style="color: salmon">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nama_Transportasi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rute_Asal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rute_Tujuan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nama_Transportasi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rute_Asal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rute_Tujuan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+        </tr>
+    }
+</table>
