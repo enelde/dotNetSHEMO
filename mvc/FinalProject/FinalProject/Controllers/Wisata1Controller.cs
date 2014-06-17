@@ -23,7 +23,7 @@ namespace FinalProject.Controllers
         {
             switch (kategori)
             {
-                case "bersejarah":
+                case "Bersejarah":
                     var sej = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(1)
                               select w;
@@ -32,7 +32,7 @@ namespace FinalProject.Controllers
                     else return View("Index");
                     break;
 
-                case "religi":
+                case "Religi":
                     var rel = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(2)
                               select w;
@@ -40,7 +40,7 @@ namespace FinalProject.Controllers
                         return View(rel.ToList());
                     else return View("Index");
                     break;
-                case "museum":
+                case "Museum":
                     var mus = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(3)
                               select w;
@@ -48,7 +48,7 @@ namespace FinalProject.Controllers
                         return View(mus.ToList());
                     else return View("Index");
                     break;
-                case "monumen":
+                case "Monumen":
                     var mon = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(4)
                               select w;
@@ -56,7 +56,7 @@ namespace FinalProject.Controllers
                         return View(mon.ToList());
                     else return View("Index");
                     break;
-                case "tamanKota":
+                case "TamanKota":
                     var tam = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(5)
                               select w;
@@ -64,7 +64,7 @@ namespace FinalProject.Controllers
                         return View(tam.ToList());
                     else return View("Index");
                     break;
-                case "mall":
+                case "Mall":
                     var mall = from w in db.WISATAs
                                where w.ID_Kategori_Wisata.Equals(6)
                                select w;
@@ -72,7 +72,7 @@ namespace FinalProject.Controllers
                         return View(mall.ToList());
                     else return View("Index");
                     break;
-                case "alam":
+                case "Alam":
                     var alam = from w in db.WISATAs
                                where w.ID_Kategori_Wisata.Equals(7)
                                select w;
@@ -80,7 +80,7 @@ namespace FinalProject.Controllers
                         return View(alam.ToList());
                     else return View("Index");
                     break;
-                case "pasar":
+                case "Pasar":
                     var pas = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(8)
                               select w;
@@ -88,7 +88,7 @@ namespace FinalProject.Controllers
                         return View(pas.ToList());
                     else return View("Index");
                     break;
-                case "kuliner":
+                case "Kuliner":
                     var kul = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(9)
                               select w;
@@ -96,7 +96,7 @@ namespace FinalProject.Controllers
                         return View(kul.ToList());
                     else return View("Index");
                     break;
-                case "golf":
+                case "Golf":
                     var gol = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(10)
                               select w;
@@ -104,7 +104,7 @@ namespace FinalProject.Controllers
                         return View(gol.ToList());
                     else return View("Index");
                     break;
-                case "kampung":
+                case "Kampung":
                     var kamp = from w in db.WISATAs
                                where w.ID_Kategori_Wisata.Equals(11)
                                select w;
@@ -112,7 +112,7 @@ namespace FinalProject.Controllers
                         return View(kamp.ToList());
                     else return View("Index");
                     break;
-                case "souvenir":
+                case "Souvenir":
                     var sou = from w in db.WISATAs
                               where w.ID_Kategori_Wisata.Equals(12)
                               select w;

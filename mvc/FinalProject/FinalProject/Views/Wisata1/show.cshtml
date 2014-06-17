@@ -5,35 +5,41 @@
 
 <h2>Result</h2>
 
-<div class="container" style="background-color:rgba(123,123,123,0.7);">
-    <table class="table">
-        <tr>
-            @Html.ActionLink("Back", "Index");
-        </tr>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nama_Wisata)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Alamat_Wisata)
-            </th>
-        </tr>
-
-        @foreach (var item in Model)
-        {
+<div class="container" >
+    <div class="box" style="background-color:rgba(25, 255, 55,0.8);">
+        <table class="table">
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nama_Wisata)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Alamat_Wisata)
-                </td> 
-                <td>
-                    @Html.ActionLink("Details", "Details", new { id = item.ID_Wisata })
-                </td>               
+                @Html.ActionLink("Back", "Index")
             </tr>
-           
-        }
-         
-    </table>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nama_Wisata)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Alamat_Wisata)
+                </th>
+                <th>
+                    Keterangan
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nama_Wisata)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Alamat_Wisata)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.ID_Wisata })
+                    </td>
+                </tr>
+
+            }
+
+        </table>
+    </div>
 </div>
