@@ -72,7 +72,56 @@ namespace FinalProject.Controllers
                         return View(mall.ToList());
                     else return View("Index");
                     break;
-                default: return View();
+                case "alam":
+                    var alam = from w in db.WISATAs
+                               where w.ID_Kategori_Wisata.Equals(7)
+                               select w;
+                    if (alam.Count() > 0)
+                        return View(alam.ToList());
+                    else return View("Index");
+                    break;
+                case "pasar":
+                    var pas = from w in db.WISATAs
+                              where w.ID_Kategori_Wisata.Equals(8)
+                              select w;
+                    if (pas.Count() > 0)
+                        return View(pas.ToList());
+                    else return View("Index");
+                    break;
+                case "kuliner":
+                    var kul = from w in db.WISATAs
+                              where w.ID_Kategori_Wisata.Equals(9)
+                              select w;
+                    if (kul.Count() > 0)
+                        return View(kul.ToList());
+                    else return View("Index");
+                    break;
+                case "golf":
+                    var gol = from w in db.WISATAs
+                              where w.ID_Kategori_Wisata.Equals(10)
+                              select w;
+                    if (gol.Count() > 0)
+                        return View(gol.ToList());
+                    else return View("Index");
+                    break;
+                case "kampung":
+                    var kamp = from w in db.WISATAs
+                               where w.ID_Kategori_Wisata.Equals(11)
+                               select w;
+                    if (kamp.Count() > 0)
+                        return View(kamp.ToList());
+                    else return View("Index");
+                    break;
+                case "souvenir":
+                    var sou = from w in db.WISATAs
+                              where w.ID_Kategori_Wisata.Equals(12)
+                              select w;
+                    if (sou.Count() > 0)
+                        return View(sou.ToList());
+                    else return View("Index");
+                    break;
+                default:
+                    return View();
                     break;
 
             }
