@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("show", "Wisata1"))
+{
+    @*Html.TextBox("bulan")*@
+
+    <select id="kategori" name="kategori">
+        <option>bersejarah</option>
+        <option>religi</option>
+        <option>museum</option>
+        <option>monumen</option>
+        <option>tamanKota</option>
+        <option>mall</option>
+
+    </select>
+    <input type="submit" value="Search" />
+}
+

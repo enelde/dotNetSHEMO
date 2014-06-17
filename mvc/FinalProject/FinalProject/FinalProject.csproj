@@ -138,7 +138,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
-    <Compile Include="Controllers\Default1Controller.cs" />
+    <Compile Include="Controllers\Wisata1Controller.cs" />
     <Compile Include="Controllers\DetilWisataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MonthEventController.cs" />
@@ -220,16 +220,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Wisata\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
-    <Content Include="Views\Default1\Create.cshtml" />
-    <Content Include="Views\Default1\Delete.cshtml" />
-    <Content Include="Views\Default1\Details.cshtml" />
-    <Content Include="Views\Default1\Edit.cshtml" />
-    <Content Include="Views\Default1\Index.cshtml" />
+    <Content Include="Views\Wisata1\Details.cshtml" />
+    <Content Include="Views\Wisata1\Index.cshtml" />
     <Content Include="Views\DetilWisata\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutWisata.cshtml" />
     <Content Include="Views\MonthEvent\Index.cshtml" />
     <Content Include="Views\Tour\Index.cshtml" />
     <Content Include="Views\MonthEvent\Search.cshtml" />
+    <Content Include="Views\Wisata1\show.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

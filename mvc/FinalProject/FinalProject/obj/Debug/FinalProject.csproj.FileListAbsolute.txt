@@ -128,3 +128,24 @@ C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\
 C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
 C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\Friska Ajeng Rizki\Documents\dotNetSHEMO\mvc\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+D:\kuliah\FinalProject\FinalProject\bin\FinalProject.dll
+D:\kuliah\FinalProject\FinalProject\bin\FinalProject.pdb
+D:\kuliah\FinalProject\FinalProject\bin\EntityFramework.dll
+D:\kuliah\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+D:\kuliah\FinalProject\FinalProject\bin\Microsoft.Web.Infrastructure.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Helpers.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Mvc.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Razor.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.dll
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.dll
+D:\kuliah\FinalProject\FinalProject\bin\EntityFramework.xml
+D:\kuliah\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Razor.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.Deployment.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Webpages.Razor.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Helpers.xml
+D:\kuliah\FinalProject\FinalProject\bin\System.Web.Mvc.xml
+D:\kuliah\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+D:\kuliah\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
