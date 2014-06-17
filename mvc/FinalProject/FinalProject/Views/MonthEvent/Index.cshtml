@@ -5,22 +5,25 @@
 @using (Html.BeginForm("Search", "MonthEvent"))
 {
     @*Html.TextBox("bulan")*@
+    <br>
+    <div style="text-align:center">
+        <select id="Bulan" name="Bulan" style="font-size:xx-large">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
 
-    <select id="Bulan" name="Bulan">
-        <option>January</option>
-        <option>February</option>
-        <option>March</option>
-        <option>April</option>
-        <option>May</option>
-        <option>June</option>
-        <option>July</option>
-        <option>August</option>
-        <option>September</option>
-        <option>October</option>
-        <option>November</option>
-        <option>December</option>
-
-    </select>
-    <input type="submit" value="Search" />
+            </select>
+            <br><br>
+             <input type="submit" value="Search" style="font-size:x-large"/>
+        </div>
 }
 

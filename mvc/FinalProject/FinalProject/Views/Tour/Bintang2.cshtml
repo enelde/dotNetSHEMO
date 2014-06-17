@@ -6,34 +6,35 @@
 }
 
 
-
-<table class="table" style="color: salmon">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nama_Hotel)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Alamat_Hotel)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Telpon_Hotel)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
+<div class="container" style="background-color:rgb(255, 255, 255);">
+    <table class="table" style="color: salmon">
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nama_Hotel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Alamat_Hotel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telpon_Hotel)
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Nama_Hotel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alamat_Hotel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telpon_Hotel)
+            </th>
+            <th></th>
         </tr>
-    }
-</table>
 
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nama_Hotel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Alamat_Hotel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telpon_Hotel)
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

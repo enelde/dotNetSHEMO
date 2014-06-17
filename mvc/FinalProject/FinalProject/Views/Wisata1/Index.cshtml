@@ -5,22 +5,25 @@
 @using (Html.BeginForm("show", "Wisata1"))
 {
     @*Html.TextBox("bulan")*@
+    <br>
+    <div style="text-align:center">
+        <select id="kategori" name="kategori" style="font-size:xx-large">
+            <option>Bersejarah</option>
+            <option>Religi</option>
+            <option>Museum</option>
+            <option>Monumen</option>
+            <option>TamanKota</option>
+            <option>Mall</option>
+            <option>Alam</option>
+            <option>Pasar</option>
+            <option>Kuliner</option>
+            <option>Golf</option>
+            <option>Kampung</option>
+            <option>Souvenir</option>
 
-    <select id="kategori" name="kategori">
-        <option>Bersejarah</option>
-        <option>Religi</option>
-        <option>Museum</option>
-        <option>Monumen</option>
-        <option>TamanKota</option>
-        <option>Mall</option>
-        <option>Alam</option>
-        <option>Pasar</option>
-        <option>Kuliner</option>
-        <option>Golf</option>
-        <option>Kampung</option>
-        <option>Souvenir</option>
-
-    </select>
-    <input type="submit" value="Search" />
+        </select>
+        <br><br>
+        <input type="submit" value="Search" style="font-size:x-large"/>
+    </div>
 }
 

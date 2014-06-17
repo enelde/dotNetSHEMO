@@ -5,36 +5,37 @@
     ViewBag.Title = "Taksi";
     Layout = "~/Views/Shared/_LayoutTour.cshtml";
 }
-
-<table class="table" style="color: salmon">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Nama_Taksi)
-        </th>
-
-        <th>
-            @Html.DisplayNameFor(model => model.Telpon_Taksi)
-        </th>
-
-        <th>
-            @Html.DisplayNameFor(model => model.Minimum_Price)
-        </th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
+<div class="container" style="background-color:rgb(255, 255, 255);">
+    <table class="table" style="color: salmon">
         <tr>
-            <td>
-                @Html.DisplayFor(model => item.Nama_Taksi)
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Nama_Taksi)
+            </th>
 
-            <td>
-                @Html.DisplayFor(model => item.Telpon_Taksi)
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Telpon_Taksi)
+            </th>
 
-            <td>
-                @Html.DisplayFor(model => item.Minimum_Price)
-            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.Minimum_Price)
+            </th>
         </tr>
-    }
-</table>                    
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Nama_Taksi)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => item.Telpon_Taksi)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => item.Minimum_Price)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
