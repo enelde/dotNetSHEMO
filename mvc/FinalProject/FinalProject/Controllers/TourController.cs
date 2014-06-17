@@ -80,5 +80,41 @@ namespace FinalProject.Controllers
                         select t;
             return View(taksi);
         }
+
+        public ActionResult Bintang1()
+        {
+            var bintang1 = from b1 in db.HOTELs
+                           where b1.Bintang_Hotel.Equals(1)
+                        select b1;
+            return View(bintang1);
+        }
+
+        public ActionResult Bintang2()
+        {
+            var bintang2 = from b2 in db.HOTELs
+                           select b2.Bintang_Hotel.Equals(2);
+            return View(bintang2);
+        }
+
+        public ActionResult Bintang3()
+        {
+            var bintang3 = from b3 in db.HOTELs
+                           select b3.Bintang_Hotel.Equals(3);
+            return View(bintang3);
+        }
+
+        public ActionResult Bintang4()
+        {
+            var bintang4 = from b4 in db.HOTELs
+                           select b4.Bintang_Hotel.Equals(4);
+            return View(bintang4);
+        }
+
+        public ActionResult Bintang5()
+        {
+            var bintang5 = from b5 in db.HOTELs
+                           select b5.Bintang_Hotel.Equals(5);
+            return View(bintang5);
+        }
     }
 }

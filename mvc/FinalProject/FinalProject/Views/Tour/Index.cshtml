@@ -5,12 +5,7 @@
     Layout = "~/Views/Shared/_LayoutTour.cshtml";
 }
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
+<table class="table" style="color: salmon">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Nama_Transportasi)
@@ -24,35 +19,24 @@
         <th>
             @Html.DisplayNameFor(model => model.Price)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.KATEGORI_TRASPORTASI.Kategori_Transportasi)
-        </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nama_Transportasi)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rute_Asal)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rute_Tujuan)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.KATEGORI_TRASPORTASI.Kategori_Transportasi)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID_Transportasi }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID_Transportasi }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID_Transportasi })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nama_Transportasi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rute_Asal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rute_Tujuan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+        </tr>
+    }
 </table>

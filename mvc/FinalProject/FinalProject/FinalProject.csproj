@@ -235,6 +235,8 @@
     <Content Include="Views\Tour\Kereta.cshtml" />
     <Content Include="Views\Tour\Pesawat.cshtml" />
     <Content Include="Views\Tour\Taksi.cshtml" />
+    <Content Include="Views\Tour\Bintang1.cshtml" />
+    <Content Include="Views\Tour\Bintang2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
